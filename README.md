@@ -1,6 +1,6 @@
 # flippo-veoveo
 
-This is my entry for [CodeCup 2019](https://www.codecup.nl/), an annual AI programming competition.
+This is my (Tomek Czajka's) entry for [CodeCup 2019](https://www.codecup.nl/), an annual AI programming competition.
 
 The game for this year's tournament was [Flippo](https://www.codecup.nl/flippo/rules.php).
 
