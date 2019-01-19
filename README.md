@@ -15,5 +15,5 @@ A summary of my entry's algorithm:
 * To score more points against weak opponents, full games against certain simple deterministic and greedy strategies were added to the opening book. These games were generated using [Beam Search](https://en.wikipedia.org/wiki/Beam_search). These sometimes led to awesome results, such as [this 64-0 wipeout](https://www.codecup.nl/showgame.php?ga=137769).
 * SSE was used for the evaluation function.
 * [Kogge-Stone](https://en.wikipedia.org/wiki/Kogge%E2%80%93Stone_adder) algorithm was used to generate all valid moves in parallel.
-* Crazy template metaprogramming was used to have the compiler generate efficient "make move" functions, separately for each square on the board.
+* Crazy template metaprogramming and bit hacking were used to have the compiler generate efficient "make move" functions, separately for each square on the board.
 * This resulted in processing about 7 million positions / second on the competition computer.
